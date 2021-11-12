@@ -1,0 +1,30 @@
+ext {
+    junit = '4.+'
+    junitTest = "1.1.3"
+    kotlinStdlib = '1.5.31'
+    core = '1.6.0'
+    appcompat = '1.3.1'
+    material = '1.4.0'
+    constraintlayout = '2.1.1'
+    espressoCore = '3.4.0'
+    viewBinding = '1.5.0-beta01'
+    coroutines = '1.5.1'
+    koin = '3.1.2'
+
+
+    coreImpl = "androidx.core:core-ktx:" + ext.core
+    coroutinesCoreImpl = "org.jetbrains.kotlinx:kotlinx-coroutines-core:" + ext.coroutines
+    coroutinesAndroidImpl = "org.jetbrains.kotlinx:kotlinx-coroutines-android:" + ext.coroutines
+    junitImpl = "junit:junit:" + ext.junitTest
+    junitTestImpl = "androidx.test.ext:junit:" + ext.junit
+    kotlinStdlibImpl = "org.jetbrains.kotlin:kotlin-stdlib:" + ext.kotlinStdlib
+    appcompatImpl = "androidx.appcompat:appcompat:" + ext.appcompat
+    materialImpl = "com.google.android.material:material:" + ext.material
+    constraintlayoutImpl = "androidx.constraintlayout:constraintlayout:" + ext.constraintlayout
+    espressoCoreImpl = "androidx.test.espresso:espresso-core:" + ext.espressoCore
+    viewBindingImpl = "com.github.kirich1409:viewbindingpropertydelegate:" + ext.viewBinding
+    viewBindingNoreflectionImpl = "com.github.kirich1409:viewbindingpropertydelegate-noreflection:" + ext.viewBinding
+    koinCoreImpl = "io.insert-koin:koin-core:" + ext.koin
+    koinAndroidImpl = "io.insert-koin:koin-android:" + ext.koin
+    koinCompatImpl = "io.insert-koin:koin-android-compat:" + ext.koin
+}
